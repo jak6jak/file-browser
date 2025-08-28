@@ -18,7 +18,7 @@ demo/bin/windows/*
 !demo/bin/windows/.gitkeep
 !demo/bin/*.gdextension
 .sconsign*.dblite
-
+/.cache/*
 # Ignore custom.py
 custom.py
 

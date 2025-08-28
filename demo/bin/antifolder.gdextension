@@ -1,29 +1,29 @@
 [configuration]
 
-entry_symbol = "example_library_init"
+entry_symbol = "antifolder_library_init"
 compatibility_minimum = "4.1"
 
 [libraries]
 ; Relative paths ensure that our GDExtension can be placed anywhere in the project directory.
-macos.single.debug = "./macos/libEXTENSION-NAME.macos.template_debug.dylib"
-macos.double.debug = "./macos/libEXTENSION-NAME.macos.template_debug.double.dylib"
-macos.single.release = "./macos/libEXTENSION-NAME.macos.template_release.dylib"
-macos.double.release = "./macos/libEXTENSION-NAME.macos.template_debug.double.dylib"
+macos.single.debug = "./macos/antifolder.macos.template_debug.dylib"
+macos.double.debug = "./macos/antifolder.macos.template_debug.double.dylib"
+macos.single.release = "./macos/antifolder.macos.template_release.dylib"
+macos.double.release = "./macos/antifolder.macos.template_debug.double.dylib"
 
-ios.arm64.single.debug = "./ios/libEXTENSION-NAME.ios.template_debug.arm64.dylib"
-ios.arm64.double.debug = "./ios/libEXTENSION-NAME.ios.template_debug.arm64.double.dylib"
-ios.arm64.single.release = "./ios/libEXTENSION-NAME.ios.template_release.arm64.dylib"
-ios.arm64.double.release = "./ios/libEXTENSION-NAME.ios.template_release.arm64.double.dylib"
+ios.arm64.single.debug = "./ios/antifolder.ios.template_debug.arm64.dylib"
+ios.arm64.double.debug = "./ios/antifolder.ios.template_debug.arm64.double.dylib"
+ios.arm64.single.release = "./ios/antifolder.ios.template_release.arm64.dylib"
+ios.arm64.double.release = "./ios/antifolder.ios.template_release.arm64.double.dylib"
 
-windows.x86_32.single.debug = "./windows/EXTENSION-NAME.windows.template_debug.x86_32.dll"
-windows.x86_32.double.debug = "./windows/EXTENSION-NAME.windows.template_debug.x86_32.double.dll"
-windows.x86_32.single.release = "./windows/EXTENSION-NAME.windows.template_release.x86_32.dll"
-windows.x86_32.double.release = "./windows/EXTENSION-NAME.windows.template_release.x86_32.double.dll"
+windows.x86_32.single.debug = "./windows/antifolder.windows.template_debug.x86_32.dll"
+windows.x86_32.double.debug = "./windows/antifolder.windows.template_debug.x86_32.double.dll"
+windows.x86_32.single.release = "./windows/antifolder.windows.template_release.x86_32.dll"
+windows.x86_32.double.release = "./windows/antifolder.windows.template_release.x86_32.double.dll"
 
-windows.x86_64.single.debug = "./windows/EXTENSION-NAME.windows.template_debug.x86_64.dll"
-windows.x86_64.double.debug = "./windows/EXTENSION-NAME.windows.template_debug.x86_64.double.dll"
-windows.x86_64.single.release = "./windows/EXTENSION-NAME.windows.template_release.x86_64.dll"
-windows.x86_64.double.release = "./windows/EXTENSION-NAME.windows.template_release.x86_64.double.dll"
+windows.x86_64.single.debug = "./windows/antifolder.windows.template_debug.x86_64.dll"
+windows.x86_64.double.debug = "./windows/antifolder.windows.template_debug.x86_64.double.dll"
+windows.x86_64.single.release = "./windows/antifolder.windows.template_release.x86_64.dll"
+windows.x86_64.double.release = "./windows/antifolder.windows.template_release.x86_64.double.dll"
 
 linux.x86_64.single.debug = "./linux/libEXTENSION-NAME.linux.template_debug.x86_64.so"
 linux.x86_64.double.debug = "./linux/libEXTENSION-NAME.linux.template_debug.x86_64.double.so"
@@ -50,7 +50,7 @@ android.arm64.double.debug = "./android/libEXTENSION-NAME.android.template_debug
 android.arm64.single.release = "./android/libEXTENSION-NAME.android.template_release.arm64.so"
 android.arm64.double.release = "./android/libEXTENSION-NAME.android.template_release.arm64.double.so"
 
-web.wasm32.single.debug = "./web/libEXTENSION-NAME.web.template_debug.wasm32.nothreads.wasm"
-web.wasm32.double.debug = "./web/libEXTENSION-NAME.web.template_release.wasm32.double.nothreads.wasm"
-web.wasm32.single.release = "./web/libEXTENSION-NAME.web.template_release.wasm32.nothreads.wasm"
-web.wasm32.double.release = "./web/libEXTENSION-NAME.web.template_release.wasm32.double.nothreads.wasm"
+web.wasm32.single.debug = "./web/antifolder.web.template_debug.wasm32.nothreads.wasm"
+web.wasm32.double.debug = "./web/antifolder.web.template_release.wasm32.double.nothreads.wasm"
+web.wasm32.single.release = "./web/antifolder.web.template_release.wasm32.nothreads.wasm"
+web.wasm32.double.release = "./web/antifolder.web.template_release.wasm32.double.nothreads.wasm"
